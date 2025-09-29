@@ -17,3 +17,5 @@ Then I started on working on trying to make the model. I made a revolving joint 
 (This part can change depending on the results of the 3D model, this documentation is assuming that our model would theoretically work as shown in the CAD model)
 
 Since our legs are working in our CAD model, we decided to see if our motor was the problem. We decided to get higher torque motors to see if our legs would walk if they had more force to push. The motor flanges were stuck to our d-shafts due to deformation of the d-shafts so we had to get vice grips and a crowbar to pry the flanges off the d-shafts for each flange.
+
+(PHOTO OF AFTER DISASSEMBLED AND DEFORMED D-SHAFT)
