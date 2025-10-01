@@ -8,7 +8,7 @@ From our physical prototype, there seemed to be an issue with the amount of forc
 
 In Fusion 360, I put the pieces together in separate components.
 
-![leg_model_fusion](../David-Vaughn/Images/image%20(1).png)
+![leg_model_fusion](../David-Vaughn/Images/fusion_model.png)
 
 Then I started on working on trying to make the model. I made a revolving joint where the jimmy is placed and attempted to ground the part of the thigh that needed to be grounded. I had a lot of issue with trying to get the model to work.
 
