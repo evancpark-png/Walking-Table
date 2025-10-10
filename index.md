@@ -8,9 +8,21 @@ From our physical prototype, there seemed to be an issue with the amount of forc
 
 In Fusion 360, I put the pieces together in separate components.
 
+### Single Leg
+
 ![leg_model_fusion](/walking-table/docs/images/fusion_model.png)
 
 Then I started on working on trying to make the model. I made a revolving joint where the jimmy is placed and attempted to ground the part of the thigh that needed to be grounded. I had a lot of issue with trying to get the model to work.
+
+I then learned that both grounds for the the leg needed to be a revolute joint type and be pinned so that they cannot move. This allowed the single leg to work.
+
+(VIDEO OF SINGLE LEG MOTION)
+
+### Double Leg
+
+The double leg required me change the single leg file a little bit so that the pieces that connect to the motor can all fit. Using the single leg motion file, I was able to easily create a second leg by mirroring the components across the middle of the leg. I then constrained the mirrored components and added the joints the same way that I did for the single leg.
+
+(Video of Double Leg)
 
 ## New Motor
 
