@@ -1,6 +1,6 @@
 # Walking Table
 
-This is a project by Evan Park and David Vaughn to create a walking table, inspired by [The Carpentopod](https://www.decarpentier.nl/carpentopod).
+This is a project by Evan Park and David Vaughn to create a walking table, inspired by [The Carpentopod](https://www.decarpentier.nl/carpentopod). The purpose of the project is to have a table that walks using motor control and can utilize a camera to respond to their environment.
 
 ## 3D Motion Model
 
@@ -23,6 +23,10 @@ I then learned that both grounds for the the leg needed to be a revolute joint t
 The double leg required me change the single leg file a little bit so that the pieces that connect to the motor can all fit. Using the single leg motion file, I was able to easily create a second leg by mirroring the components across the middle of the leg. I then constrained the mirrored components and added the joints the same way that I did for the single leg.
 
 (Video of Double Leg)
+
+### Half-Table
+
+
 
 ## New Motor
 
