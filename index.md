@@ -26,7 +26,17 @@ The double leg required me change the single leg file a little bit so that the p
 
 ### Half-Table
 
+Making the half table was more complicated than I expected. I thought the process would be as simple as copy and pasting the double leg twice and adding more joints but I kept running into problems.
 
+#### Grounding & Reworking Crankshaft
+
+There was a few issues with grounding my pieces at first. Deleting my grounds that I had previously would require me to unlink my pieces to the design I had made for them which would create issues later down the line. To fix this, I had to recreate the legs with new grounds. Before I did this, I had to tackle another issue.
+
+The crankshaft was creating problems when I tried to connect each individual piece together. To fix this, I designed the entire cranksahft and imported it into the file. I then rebuilt the legs which was a much easier process once I had fixed these two things.
+
+<video width="880" height="776" controls>
+  <source src="/walking-table/docs/images/ep-halftable_motion.mp4" type="video/mp4">
+</video>
 
 ## New Motor
 
