@@ -35,7 +35,7 @@ There was a few issues with grounding my pieces at first. Deleting my grounds th
 The crankshaft was creating problems when I tried to connect each individual piece together. To fix this, I designed the entire cranksahft and imported it into the file. I then rebuilt the legs which was a much easier process once I had fixed these two things.
 
 <video width="880" height="776" controls>
-  <source src="/walking-table/docs/images/ep-halftable_motion.mp4" type="video/mp4">
+  <source src="../walking-table/docs/images/ep-halftable_motion.mp4" type="video/mp4">
 </video>
 
 ## New Motor
