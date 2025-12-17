@@ -16,13 +16,13 @@ Then I started on working on trying to make the model. I made a revolving joint 
 
 I then learned that both grounds for the the leg needed to be a revolute joint type and be pinned so that they cannot move. This allowed the single leg to work.
 
-(VIDEO OF SINGLE LEG MOTION)
+https://github.com/user-attachments/assets/0f659eb2-71fe-4b76-a008-0f084a4013fa
 
 ### Double Leg
 
 The double leg required me change the single leg file a little bit so that the pieces that connect to the motor can all fit. Using the single leg motion file, I was able to easily create a second leg by mirroring the components across the middle of the leg. I then constrained the mirrored components and added the joints the same way that I did for the single leg.
 
-(Video of Double Leg)
+https://github.com/user-attachments/assets/6a0d1ccd-b37a-4eaf-acc6-456f574038d4
 
 ### Half-Table
 
