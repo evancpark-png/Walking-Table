@@ -16,6 +16,8 @@ Then I started on working on trying to make the model. I made a revolving joint 
 
 I then learned that both grounds for the the leg needed to be a revolute joint type and be pinned so that they cannot move. This allowed the single leg to work.
 
+![](/images/ep-halftable_motion.mp4)
+
 https://github.com/user-attachments/assets/0f659eb2-71fe-4b76-a008-0f084a4013fa
 
 ### Double Leg
@@ -33,6 +35,10 @@ Making the half table was more complicated than I expected. I thought the proces
 There was a few issues with grounding my pieces at first. Deleting my grounds that I had previously would require me to unlink my pieces to the design I had made for them which would create issues later down the line. To fix this, I had to recreate the legs with new grounds. Before I did this, I had to tackle another issue.
 
 The crankshaft was creating problems when I tried to connect each individual piece together. To fix this, I designed the entire cranksahft and imported it into the file. I then rebuilt the legs which was a much easier process once I had fixed these two things.
+
+
+https://github.com/user-attachments/assets/77c57209-649a-4e01-90bd-989ca70e43eb
+
 
 https://github.com/user-attachments/assets/64f976b2-2913-4219-aeee-ac5f481f202a
 
