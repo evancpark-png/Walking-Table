@@ -2,6 +2,32 @@
 
 This is a project by Evan Park and David Vaughn to create a walking table, inspired by Niel DeCarpentier's [The Carpentopod](https://www.decarpentier.nl/carpentopod). The purpose of the project is to have a table that walks using motor control similar to the Carpentopod, but it can utilize a camera to respond to their environment.
 
+## Other Documentation
+
+The documentation that I created for the project while working on it during October 2024 - April 2025 can be found [here](https://sites.google.com/charlottelatin.org/evan-park/home/bioengineering/the-walking-table)
+
+## Overview
+
+## Materials List
+
+| Walking Table 2025 Bill of Materials (BOM) |                                                                      |              |             |     |         |                                                                                                                                        |   |
+|--------------------------------------------|----------------------------------------------------------------------|--------------|-------------|-----|---------|----------------------------------------------------------------------------------------------------------------------------------------|---|
+| Name:                                      | Evan Park                                                            | Period       | A           |     |         |                                                                                                                                        |   |
+| Project Title                              | Walking Table                                                        |              |             |     |         |                                                                                                                                        |   |
+| Item #                                     | Description                                                          | Vendor       | Part Number | Qty | Cost    | Link to Where to Purchase                                                                                                              |   |
+| ,5''  96x48 Plywood                        | To CNC into legs and frame                                           | Home Depot   |             | 3   | $136.50 | https://www.homedepot.com/p/SANDEPLY-12mm-Sande-Plywood-1-2-in-Category-x-4-ft-x-8-ft-Actual-0-472-in-x-48-in-x-96-in-454532/203414055 |   |
+| 3/8''_5/8'' Shoulder Bolt                  | For joints                                                           | Amazon       |             | 10  | $17.00  | https://www.amazon.com/Socket-Shoulder-Screws-Bolts-25MM/dp/B009TE1K4S                                                                 |   |
+| 5mm Aluminum Rod                           | For crankshaft                                                       | Metals Depot |             | 4ft | $20.00  | https://www.metalsdepot.com/aluminum-products                                                                                          |   |
+| F625ZZ Flanged Bearings                    | 5mm ID, 16mm OD                                                      | Amazon       |             | 18  | $14.00  | https://www.amazon.com/uxcell-Flange-Bearing-Shielded-Bearings/dp/B08CK6LM8Q                                                           |   |
+| 5mm Shaft Collars (Set Screw)              | To keep crankshaft from sliding                                      | Amazon       |             | 10  | 15$     | https://www.amazon.com/Ruland-MSC-5-F-Screw-Collar-Metric/dp/B0063KWEDW                                                                |   |
+| 12V DC Geared Motor (20-50 RPM)            | High torque, low RPM geared motor. 20-50 RPM ideal for walking speed | Amazon       |             | 2   | $80.00  | https://www.amazon.com/Electric-Torque-Reduction-Centric-Output/dp/B0728HDH45                                                          |   |
+
+## Machines and Software
+
+The machines I will be using to create the walking table will be primarily the ShopBot. I might end up using other tools to create the legs but the main machine I will be using will be the ShopBot. I will occasionally use the bandsaw and sander to smooth and shape the legs if needed. 
+
+Fusion360 and Aspire will be the main softwares I will be using to design and cut my legs. I will design my files parametrically in Fusion360 and take the dxf files into Aspire to create the toolpaths for the ShopBot.
+
 ## 3D Motion Model
 
 From our physical prototype, there seemed to be an issue with the amount of force the legs are producing in order for the table to walk and the smoothness of the motion. By smoothness, parts of the walk cycle would go faster than normal when suspended in the air. This issue could be due to the effect of gravity assisting on portions of the cycle while being a detriment on other parts. In order to find the cause of this. We decided to put together a motion model of our pieces to make sure there aren't any issues that are tied to the CAD design of the legs. If we don't find any issues with the model, we can assume it is a assembly issue. Luckily, we put together some 3D models of each piece of the leg so creating the 3D model of the entire leg was simple. 
@@ -38,28 +64,12 @@ https://github.com/user-attachments/assets/64f976b2-2913-4219-aeee-ac5f481f202a
 
 ## Reworking Design
 
-Now that I know that our design works theoretically, I wanted to make a few changes to the design. The first being that I wanted to add bearings again. I reasoned that the only spots that needed bearings were the crankshaft and where the grounds connect because this is were most of the load on the table legs go so improving these joints would make the leg turn much smoother. I decided to go with flanged bearings that I can glue or screw to the leg to keep them tight and not move. 
+Now that I know that our design works theoretically, I wanted to make a few changes to the design. Because our design should be working, that means that there has to be a problem with how we are assembling the table. One of the most obvious problems would be our crankshaft. The first step to fixing this issue being is to add bearings again. I reasoned that the only spots that needed bearings were the crankshaft and where the grounds connect because this is were most of the load on the table legs go so improving these joints would make the leg turn much smoother. I decided to go with flanged bearings that I can glue or screw to the leg to keep them tight and not move. With the changes I want to make known I can find my materials required to develop the project. 
 
-## Materials List
-
-| Walking Table 2025 Bill of Materials (BOM)                                                  |
-| ------------------------------------------------------------------------------------------- |
-| Please fill this out for all parts that will be required for your project.                  |
-| If you cannot find information, move on and ask your instructor when emailing this to them. |
-| Name:                                                                                       | Evan Park                                                            | Period                                     | A |  |  |  |  |
-| Project Title                                                                               | Walking Table                                                        |                                            |  |  |  |  |  |
-| Item #                                                                                      | Description                                                          | Vendor                                     | Part Number | Qty | Cost | Link to Where to Purchase |  |
-| ,5'' 96x48 Plywood                                                                          | To CNC into legs and frame                                           | Home Depot                                 |  | 3 | $136.50 | [https://www.homedepot.com/p/SANDEPLY-12mm-Sande-Plywood-1-2-in-Category-x-4-ft-x-8-ft-Actual-0-472-in-x-48-in-x-96-in-454532/203414055](https://www.homedepot.com/p/SANDEPLY-12mm-Sande-Plywood-1-2-in-Category-x-4-ft-x-8-ft-Actual-0-472-in-x-48-in-x-96-in-454532/203414055) |  |
-| 3/8''_5/8'' Shoulder Bolt                                                                   | For joints                                                           | Amazon                                     |  | 10 | $17.00 | [https://www.amazon.com/Socket-Shoulder-Screws-Bolts-25MM/dp/B009TE1K4S](https://www.metalsdepot.com/aluminum-products) |  |
-| 5mm Aluminum Rod                                                                            | For crankshaft                                                       | Metals Depot                               |  | 4ft | $20.00 | [https://www.metalsdepot.com/aluminum-products](https://www.metalsdepot.com/aluminum-products) |  |
-| F625ZZ Flanged Bearings                                                                     | 5mm ID, 16mm OD                                                      | Amazon                                     |  | 18 | $14.00 | [https://www.amazon.com/uxcell-Flange-Bearing-Shielded-Bearings/dp/B08CK6LM8Q](https://www.amazon.com/uxcell-Flange-Bearing-Shielded-Bearings/dp/B08CK6LM8Q) |  |
-| 5mm Shaft Collars (Set Screw)                                                               | To keep crankshaft from sliding                                      | Amazon                                     |  | 10 | 15$ | [https://www.amazon.com/Ruland-MSC-5-F-Screw-Collar-Metric/dp/B0063KWEDW](https://www.amazon.com/Ruland-MSC-5-F-Screw-Collar-Metric/dp/B0063KWEDW) |  |
-| 12V DC Geared Motor (20-50 RPM)                                                             | High torque, low RPM geared motor. 20-50 RPM ideal for walking speed | Amazon                                     |  | 2 | $80.00 | [https://www.amazon.com/Electric-Torque-Reduction-Centric-Output/dp/B0728HDH45](https://www.amazon.com/Electric-Torque-Reduction-Centric-Output/dp/B0728HDH45) |  |
+Another piece that I would want to rework is our D-Shafts. During testing last year, I understood that our D-shafts would deform and not fully stay in place. Now that I am adding bearings, I can attempt to use aluminum shafts for the connections to the crankshaft. This could potentially solve our issue because the shafts would be much more robust leading to less issues with the amount of load our crankshaft can handle. 
 
 ## New Motor
 
-(This part can change depending on the results of the 3D model, this documentation is assuming that our model would theoretically work as shown in the CAD model)
+Since our legs are working in our CAD model, we decided to see if our motor was the problem. We decided to get higher torque motors to see if our legs would walk if they had more force. The motor flanges were stuck to our d-shafts due to deformation of the d-shafts so we had to get vice grips and a crowbar to pry the flanges off the d-shafts for each flange.
 
-Since our legs are working in our CAD model, we decided to see if our motor was the problem. We decided to get higher torque motors to see if our legs would walk if they had more force to push. The motor flanges were stuck to our d-shafts due to deformation of the d-shafts so we had to get vice grips and a crowbar to pry the flanges off the d-shafts for each flange.
-
-(PHOTO OF AFTER DISASSEMBLED AND DEFORMED D-SHAFT)
+![](/walking-table/docs/images/deformed_shaft.jpg)
