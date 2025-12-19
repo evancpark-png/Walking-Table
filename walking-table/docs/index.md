@@ -16,8 +16,6 @@ Then I started on working on trying to make the model. I made a revolving joint 
 
 I then learned that both grounds for the the leg needed to be a revolute joint type and be pinned so that they cannot move. This allowed the single leg to work.
 
-![](/images/ep-halftable_motion.mp4)
-
 https://github.com/user-attachments/assets/0f659eb2-71fe-4b76-a008-0f084a4013fa
 
 ### Double Leg
@@ -36,11 +34,16 @@ There was a few issues with grounding my pieces at first. Deleting my grounds th
 
 The crankshaft was creating problems when I tried to connect each individual piece together. To fix this, I designed the entire cranksahft and imported it into the file. I then rebuilt the legs which was a much easier process once I had fixed these two things.
 
-
-https://github.com/user-attachments/assets/77c57209-649a-4e01-90bd-989ca70e43eb
-
-
 https://github.com/user-attachments/assets/64f976b2-2913-4219-aeee-ac5f481f202a
+
+<video width="320" height="240" controls>
+  <source src="walking-table\docs\images\ep-halftable_motion.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+## Reworking Design
+
+Now that I know that our design works theoretically, I wanted to make a few changes to the design. The first being that I wanted to add bearings again. I reasoned that the only spots that needed bearings were the crankshaft and where the grounds connect because this is were most of the load on the table legs go so improving these joints would make the leg turn much smoother. I decided to go with flanged bearings that I can glue or screw to the leg to keep them tight and not move. 
 
 ## New Motor
 
