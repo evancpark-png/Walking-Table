@@ -1,6 +1,6 @@
 # Walking Table
 
-This is a project by Evan Park and David Vaughn to create a walking table, inspired by [The Carpentopod](https://www.decarpentier.nl/carpentopod). The purpose of the project is to have a table that walks using motor control and can utilize a camera to respond to their environment.
+This is a project by Evan Park and David Vaughn to create a walking table, inspired by Niel DeCarpentier's [The Carpentopod](https://www.decarpentier.nl/carpentopod). The purpose of the project is to have a table that walks using motor control similar to the Carpentopod, but it can utilize a camera to respond to their environment.
 
 ## 3D Motion Model
 
@@ -36,14 +36,25 @@ The crankshaft was creating problems when I tried to connect each individual pie
 
 https://github.com/user-attachments/assets/64f976b2-2913-4219-aeee-ac5f481f202a
 
-<video width="320" height="240" controls>
-  <source src="walking-table\docs\images\ep-halftable_motion.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-
 ## Reworking Design
 
 Now that I know that our design works theoretically, I wanted to make a few changes to the design. The first being that I wanted to add bearings again. I reasoned that the only spots that needed bearings were the crankshaft and where the grounds connect because this is were most of the load on the table legs go so improving these joints would make the leg turn much smoother. I decided to go with flanged bearings that I can glue or screw to the leg to keep them tight and not move. 
+
+## Materials List
+
+| Walking Table 2025 Bill of Materials (BOM)                                                  |
+| ------------------------------------------------------------------------------------------- |
+| Please fill this out for all parts that will be required for your project.                  |
+| If you cannot find information, move on and ask your instructor when emailing this to them. |
+| Name:                                                                                       | Evan Park                                                            | Period                                     | A |  |  |  |  |
+| Project Title                                                                               | Walking Table                                                        |                                            |  |  |  |  |  |
+| Item #                                                                                      | Description                                                          | Vendor                                     | Part Number | Qty | Cost | Link to Where to Purchase |  |
+| ,5'' 96x48 Plywood                                                                          | To CNC into legs and frame                                           | Home Depot                                 |  | 3 | $136.50 | [https://www.homedepot.com/p/SANDEPLY-12mm-Sande-Plywood-1-2-in-Category-x-4-ft-x-8-ft-Actual-0-472-in-x-48-in-x-96-in-454532/203414055](https://www.homedepot.com/p/SANDEPLY-12mm-Sande-Plywood-1-2-in-Category-x-4-ft-x-8-ft-Actual-0-472-in-x-48-in-x-96-in-454532/203414055) |  |
+| 3/8''_5/8'' Shoulder Bolt                                                                   | For joints                                                           | Amazon                                     |  | 10 | $17.00 | [https://www.amazon.com/Socket-Shoulder-Screws-Bolts-25MM/dp/B009TE1K4S](https://www.metalsdepot.com/aluminum-products) |  |
+| 5mm Aluminum Rod                                                                            | For crankshaft                                                       | Metals Depot                               |  | 4ft | $20.00 | [https://www.metalsdepot.com/aluminum-products](https://www.metalsdepot.com/aluminum-products) |  |
+| F625ZZ Flanged Bearings                                                                     | 5mm ID, 16mm OD                                                      | Amazon                                     |  | 18 | $14.00 | [https://www.amazon.com/uxcell-Flange-Bearing-Shielded-Bearings/dp/B08CK6LM8Q](https://www.amazon.com/uxcell-Flange-Bearing-Shielded-Bearings/dp/B08CK6LM8Q) |  |
+| 5mm Shaft Collars (Set Screw)                                                               | To keep crankshaft from sliding                                      | Amazon                                     |  | 10 | 15$ | [https://www.amazon.com/Ruland-MSC-5-F-Screw-Collar-Metric/dp/B0063KWEDW](https://www.amazon.com/Ruland-MSC-5-F-Screw-Collar-Metric/dp/B0063KWEDW) |  |
+| 12V DC Geared Motor (20-50 RPM)                                                             | High torque, low RPM geared motor. 20-50 RPM ideal for walking speed | Amazon                                     |  | 2 | $80.00 | [https://www.amazon.com/Electric-Torque-Reduction-Centric-Output/dp/B0728HDH45](https://www.amazon.com/Electric-Torque-Reduction-Centric-Output/dp/B0728HDH45) |  |
 
 ## New Motor
 
