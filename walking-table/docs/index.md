@@ -31,11 +31,14 @@ The table will be about 12x48'' and about 12'' tall. It will be made primarily o
 
 The final estimate is $359.50 
 
-### Machines and Software
+### Machines, Software, and Tools
 
 The machines I will be using to create the walking table will be primarily the ShopBot. I might end up using other tools to create the legs but the main machine I will be using will be the ShopBot. I will occasionally use the bandsaw and sander to smooth and shape the legs if needed. 
 
 Fusion360 and Aspire will be the main softwares I will be using to design and cut my legs. I will design my files parametrically in Fusion360 and take the dxf files into Aspire to create the toolpaths for the ShopBot.
+
+The tools I will need for this project is a bolt fastener for the joints, hex nut fasteners for the motor flanges, and wood glue to put together the layers for each leg. 
+
 
 ## 3D Motion Model
 
@@ -43,7 +46,7 @@ From our physical prototype, there seemed to be an issue with the amount of forc
 
 In Fusion 360, I put the pieces together in separate components.
 
-### Single Leg
+### Single Leg (September)
 
 ![leg_model_fusion](/walking-table/docs/images/fusion_model.png)
 
@@ -53,13 +56,13 @@ I then learned that both grounds for the the leg needed to be a revolute joint t
 
 https://github.com/user-attachments/assets/0f659eb2-71fe-4b76-a008-0f084a4013fa
 
-### Double Leg
+### Double Leg (October 1st - 15th)
 
 The double leg required me change the single leg file a little bit so that the pieces that connect to the motor can all fit. Using the single leg motion file, I was able to easily create a second leg by mirroring the components across the middle of the leg. I then constrained the mirrored components and added the joints the same way that I did for the single leg.
 
 https://github.com/user-attachments/assets/6a0d1ccd-b37a-4eaf-acc6-456f574038d4
 
-### Half-Table
+### Half-Table (November-December 10th)
 
 Making the half table was more complicated than I expected. I thought the process would be as simple as copy and pasting the double leg twice and adding more joints but I kept running into problems.
 
@@ -71,7 +74,11 @@ The crankshaft was creating problems when I tried to connect each individual pie
 
 https://github.com/user-attachments/assets/64f976b2-2913-4219-aeee-ac5f481f202a
 
-## Reworking Design
+## Download CAD Files
+
+You can download all the CAD files I created [here](/walking-table/docs/downloads/EP-Leg_CAD.zip)
+
+## Reworking Design (December)
 
 Now that I know that our design works theoretically, I wanted to make a few changes to the design. Because our design should be working, that means that there has to be a problem with how we are assembling the table. One of the most obvious problems would be our crankshaft. The first step to fixing this issue being is to add bearings again. I reasoned that the only spots that needed bearings were the crankshaft and where the grounds connect because this is were most of the load on the table legs go so improving these joints would make the leg turn much smoother. I decided to go with flanged bearings that I can glue or screw to the leg to keep them tight and not move. With the changes I want to make known I can find my materials required to develop the project. 
 
