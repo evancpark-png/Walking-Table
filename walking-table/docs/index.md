@@ -89,3 +89,9 @@ Another piece that I would want to rework is our D-Shafts. During testing last y
 Since our legs are working in our CAD model, we decided to see if our motor was the problem. We decided to get higher torque motors to see if our legs would walk if they had more force. The motor flanges were stuck to our d-shafts due to deformation of the d-shafts so we had to get vice grips and a crowbar to pry the flanges off the d-shafts for each flange.
 
 ![](/walking-table/docs/images/deformed_shaft.jpg)
+
+# Daily Journal (January 6th - Present)
+
+## January 6th
+
+Today I changed the Fusion360 file to add the flanged bearings into the file. While looking at the file and De Carpentier's design again, I realized that what I called the linkage diameter (the diameter of the rounded parts of the linkages) had to be a specific number just like every other part of the linkage. This is important because the touch points of the leg changes based on how thick the diameter is.
