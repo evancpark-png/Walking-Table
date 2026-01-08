@@ -2,6 +2,10 @@
 
 This is a project by Evan Park and David Vaughn to create a walking table, inspired by [The Carpentopod](https://www.decarpentier.nl/carpentopod) by Niel de Carpentier. This project is also inspired by [The Strandbeest sculptures](https://www.strandbeest.com/) by Theo Jansen where our leg design is derived from. The end goal of the project is to have a table that can walk, similar to The Carpentopdo, but also be able to utilize a camera to respond and navigate their enviorment. The hope is that the table could have actions where it could see a person or thing in the camera and respond mechanically.
 
+## Task List
+
+You can find my task list [here](https://docs.google.com/document/d/1pdYfZHLqmD0I9hMA4ECjzsxxwRmnwLk_HRpnbSTHKo8/edit?usp=sharing)
+
 ## Other Documentation
 
 The documentation that I created for the project while working on it during October 2024 - April 2025 can be found [here](https://sites.google.com/charlottelatin.org/evan-park/home/bioengineering/the-walking-table)
