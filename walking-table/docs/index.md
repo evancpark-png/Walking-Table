@@ -103,3 +103,11 @@ Today I changed the Fusion360 file to add the flanged bearings into the file. Wh
 ## January 8th
 
 Today I changed the spacers so that I made sure they wouldn't interfere with the linkages. During this process, I realized that my parametric design is broken and I am unable to change the scale of the table correctly. This is not something that I will wory about at the moment because it is the scale that I want at this moment. I will come back to this at the end of the project.
+
+## January 12-14th
+
+On these days I double checked my file fixing errors that were left over after I have changed my design. I then created an Aspire file.
+
+## January 15 & 20th
+
+These days I took apart all the spare parts I could use from my old design into my new one. This included all linkages except for the crankshaft, thigh, and foot.
