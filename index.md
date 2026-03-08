@@ -227,6 +227,10 @@ Now it was time to assemble the table.
 
 I mounted the motor onto the ground using bolts and then attach the ground axles. I then attech my motor crank shaft connector piece and set it in place using the set screw. I then attached the axles to the ground and crank webs using clamps. I then proceeded to attach the linkages onto the motor and then connected the next ground piece in order to keep everything in place and added the dividers. On the ends of the axles I also used spacers to reduce friction. Once this was done I tested it and it worked well. When I made a mistake with the spacing of the legs I take a crowbar and pry the axles off in order to make changes.
 
+<video width="320" height="240" controls>
+  <source src="walking-table\docs\images\IMG_0782.mp4" type="video/mp4">
+</video>
+
 ### Half Table
 
 I then proceeded to attach the other two leg sets using the same process. While doing this, I made an error with the final piece by not adding spacers making the friction on it pretty bad making it hard for the legs to turn. At times, the half table could push off the ground and at other times it couldn't. This is as far I have made it up to the due date (3/7/26) of the documentation.
@@ -241,7 +245,7 @@ I intend for this project to be completed soon. All of the changes that I have m
 
 You can download all the files for my project [here](./downloads/ep-walkingtable-downloads.zip)
 
-# Daily Journal
+# Daily Journal (January - Current)
 
 ## January 5th & 6th
 

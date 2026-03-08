@@ -63,7 +63,7 @@ Today I designed my ground that would connect to my motor. This design wasn't mu
 
 ## Febuary 3rd
 
-Today I did a test fit for the connecting pieces of my ground. Because the ShopBot cant drill straight lines on the inside of wood, I decided to make a fillet for my 3D printed pieces instead of adding a dogbone. From this I determined that a fillet of 
+Today I did a test fit for the connecting pieces of my ground. Because the ShopBot cant drill straight lines on the inside of wood, I decided to make a fillet for my 3D printed pieces instead of adding a dogbone. From this I determined that a fillet of .05''
 
 ![](./images/groundconnectorfit.png)
 
