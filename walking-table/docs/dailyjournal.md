@@ -61,23 +61,88 @@ Today I designed my ground that would connect to my motor. This design wasn't mu
 
 ![](./images/grounds4.png)
 
-3rd - test fit for connected ground 3d prints
+## Febuary 3rd
 
-4th & 5th - 3D pritned
+Today I did a test fit for the connecting pieces of my ground. Because the ShopBot cant drill straight lines on the inside of wood, I decided to make a fillet for my 3D printed pieces instead of adding a dogbone. From this I determined that a fillet of 
 
-6th & 9th - redesigned leg files to include bearing changes and take off extra weight off feet
+![](./images/groundconnectorfit.png)
 
-11th & 18th - designed file for mill one set of legs and other full files
+## Febuary 4th and 5th
 
-19th - milled
+Today I 3D printed a lot of my parts. This included crankshaft pieces, axles, and the ground connector pieces
 
-20th - remilled for half pieces
+![](./images/bag_of_3dprints.jpg)
 
-23rd - glued and sanded
+## Febuary 6th and 9th
 
-24 - 25th - messed around with motor flange to make sure it would fit on the shaft
+These days I redesigned my leg dxf file in Fusion360 to include bearings and bearing shelves. Using an offset I took uneeded weight off the feet.
 
-26th - milled the rest of my pieces
+![](./images/legs_dxf.png)
+
+## Febuary 11th and 18th
+
+These days I took the dxf from Fusion 360 into Aspire in order to mill my legs. I created a file in order to mill a set of legs to test my motor flange and another Aspire file to mill the rest of the legs for 1/2 of the full table.
+
+The drill files for these files goes like so on a 1/2'' Plywood
+
+3/8'' Compression Bit
+- Bearing Shelf Pocket (.15'' Depth)
+- Bolt Shelf Pocket (.34'' Depth)
+- Bearing Shelf Pocket 2 (.41'' Depth) ; For the pieces that connect to the crankshaft
+- Bearing Through Hole Pocket (.5'' Depth) 
+- Half Pocket (.25'' Depth) ; For the pieces that connect to the crankshaft
+- Inside Profile (.5'' Depth) ; For taking weight off feet, tabs included
+- Outside Profile (.5'' Depth) ; tables included
+
+1/4'' Straight Bit
+- Bolt Hole
+
+1/8'' Staight Bit
+- Ground Hole
+
+![](./images/aspire_oneset.png)
+![](./images/aspire_restoflegs.png)
+
+## Febuary 19th
+
+Today I milled the leg set and some of the grounds.
+
+![](./images/milling-legs.jpg)
+
+## Febuary 20th
+
+I accidentally forgot to mill the pieces that connect to the crankshaft halfway (so they can all fit in the middle without interacting with one another) so I had to mill again for those pieces.
+
+![](./images/half_pieces.jpg)
+
+## Febuary 23rd
+
+Today I glued and sanded each piece. I made sure to put the bolts and axles through the pieces before I glued them so everything would line up when I put it together
+
+IMAGE OF GLUED CLAMPED PIECES
+
+## Febuary 24-25th 
+
+Today I worked on the part of the crankshaft that would attach to the motor. At first, I decided that I would put a heat insert into a 3D print in order to create a set screw. I redesigned my motor connector and it seemed to spin fine.
+
+## Febuary 26th - 27th
+
+I milled the rest of my pieces and glued and sanded them using the same process as before.
+
+## March 3rd
+
+Today I put together one set of legs and I realized that the heat insert that I used for my 3D print motor crankshaft connection wasn't strong enough to put together the legs. So I ordered some motor flanges to come in the next day and I also redesigned the motor crankshaft piece so that the flange could fit in the 3D print.
+
+## March 4th
+
+With the new motor connector piece, I reassembled the legs and it worked.
+
+## March 5th 
+
+I put together the other two legs but was having issues because I made the last one too tight which made it so that there was too much friction and energy loss.
+
+
+
 
 
 
