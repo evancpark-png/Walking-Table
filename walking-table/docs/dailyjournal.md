@@ -37,7 +37,7 @@ From this I created the axles and part of the motor shaft. I needed this axle to
 
 ## January 21st & 22nd
 
-Using the design I made the crankshaft pieces. The part of the crankshaf that didn't connect to the motor were simple, but for the motor I needed to allow space for the d-shaft and an inset screw so that I can fasten the crankshaft to the motor.
+Using the design I made the crankshaft pieces. The part of the crankshaft that didn't connect to the motor were simple, but for the motor I needed to allow space for the d-shaft and an inset screw so that I can fasten the crankshaft to the motor.
 
 ![](./images/crankshaft3.png)
 

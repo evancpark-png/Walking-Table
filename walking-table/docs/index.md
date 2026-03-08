@@ -78,21 +78,168 @@ The crankshaft was creating problems when I tried to connect each individual pie
 
 https://github.com/user-attachments/assets/64f976b2-2913-4219-aeee-ac5f481f202a
 
-## Download CAD Files
-
-You can download all the CAD files I created [here](/walking-table/docs/downloads/EP-Leg_CAD.zip)
-
 ## Reworking Design (December)
 
-Now that I know that our design works theoretically, I wanted to make a few changes to the design. Because our design should be working, that means that there has to be a problem with how we are assembling the table. One of the most obvious problems would be our crankshaft. The first step to fixing this issue being is to add bearings again. I reasoned that the only spots that needed bearings were the crankshaft and where the grounds connect because this is were most of the load on the table legs go so improving these joints would make the leg turn much smoother. I decided to go with flanged bearings that I can glue or screw to the leg to keep them tight and not move. With the changes I want to make known I can find my materials required to develop the project. 
+Now that I know that our design works theoretically, I wanted to make a few changes to the design. Because our design should be working, that means that there has to be a problem with how we are assembling the table. One of the most obvious problems would be our crankshaft. The first step to fixing this issue being is to add bearings again. I reasoned that the only spots that needed bearings were the crankshaft and where the grounds connect because this is were most of the load on the table legs go so improving these joints would make the leg turn much smoother. With the changes I want to make known I can find my materials required to develop the project. 
 
 Another piece that I would want to rework is our D-Shafts. During testing last year, I understood that our D-shafts would deform and not fully stay in place. Now that I am adding bearings, I can attempt to use aluminum shafts for the connections to the crankshaft. This could potentially solve our issue because the shafts would be much more robust leading to less issues with the amount of load our crankshaft can handle. 
 
-## New Motor
-
-Since our legs are working in our CAD model, we decided to see if our motor was the problem. We decided to get higher torque motors to see if our legs would walk if they had more force. The motor flanges were stuck to our d-shafts due to deformation of the d-shafts so we had to get vice grips and a crowbar to pry the flanges off the d-shafts for each flange.
-
 ![](/walking-table/docs/images/deformed_shaft.jpg)
+
+## New Leg Design - Fusion 360
+
+### Feet Diamter
+
+One of the first things I noticed when I started designing the new legs was that the feet diameter, how thick the feet were which affected at what point it would touch the ground, was off. After rescaling the parameter that decided this, I had to reconstrain some pieces that changed due to the new diameter. Once this was done I started on some other changes.
+
+### Taking Weight Off
+
+Another change I wanted to make was taking weight off of the design. Due to changing the diameter, the weight was already changed pretty drastically. But, I decided to take some weight of the feet by adding an offset to the edge where I could cut the offset out in order to take away material that wasn't needed in order for the design to function properly. I decided to do this for only the feet.
+
+### Adding Bearings
+
+I wanted to do a new design with berings incooperated. I knew that not every piece required the addition of bearings, only the parts that connect to the crankshaft and the parts that connect to the crankshaft and the parts that connect to the grounds because those were the parts that took on the most load.
+
+I wanted to have the bearings be press fit into the wood pieces so before added it to the CAD file, I did a bearing fit test for my legs so that I made sure I had the right diameter for a pressfit. I took the exact outer diameter (21 mm) and subtracted and added .25mm multiple times to test the different bearings. After milling I determined an outer diameter of 21.525mm was the perfect fit with a depth of 15''. 
+
+![](./images/bearing_fit_test.png)
+
+Now that I had the dimensions, I added bearings to the thigh and each of the pieces that connected to my crankshaft. Now that this was done, I had my final linkage design.
+
+![](./images/legs_dxf.png)
+
+## Crankshaft
+
+Now that I had bearings in my design, I decided to redesign the crankshaft in order to accomidate these bearings
+
+After looking at the Concept Bytes Walking Table V3, which also included bearings, I decided to replicate their crankshaft design which was 3D printed. There were a few advantages to going with this route but there were also some tradeoff. Some of the advantages was that if the pieces held up and did not break, it was certain that the crankshaft wouldn't mess up and make it so that each crank wasn't offset 120 degrees from the last making sure the legs were in the correct phase. It also allowed me to design a piece that would fit nicely in the bearings I would use. The tradeoff was that the 3D printed parts had to be strong enough so that they wouldn't break under the load.
+
+### Axles
+
+I decided to design a three pronged axle for the part of the axle that would go into the crank. I did this by creating an outer circle that was the thickness of the inner diameter of the bearings and then creating another circle conecntric to it that is a third of the length. I then created a chord that was a third of the diamter that was horizontal. From this I created two lines going out from each end of the chord chord tangent to the inner circle and made a circle pattern that repeated 3 times and forced the repeats of the lines to be coincident. 
+
+![](./images/crankshaft1.png)
+
+From this I created the axles and part of the motor shaft. I needed this axle to be able to be for the part that connected to each ground, the part that connected each crankshaft piece, the part that connected each linkage, and the part that was at the end of the half table.
+
+![](./images/crankshaft2.png)
+
+The axle peices weren't robust enough with base bambu file printing so I decided to increase the infil to 100% and also print them at a 45 degree angle so the force being apllied wasn't along the layers that the axle was printed on.
+
+### Crank Web
+
+Using the design I made the crankshaft pieces, creating the part of the crankshaft that didn't connect to the motor were simple. 
+
+![](./images/crankshaft3.png)
+
+### Mounting Crank
+
+The part that connected to the motor was a little more tricky though. At first I decided to extend the Crankweb piece I had so that it could fit the d-shaft for the motor and allowed a heat-insert to be placed in it so that I could have a set screw. 
+
+![](./images/crankshaft4.png)
+
+![](./images/crankshaft4.2.png)
+
+This didn't end up working as intended. The heat insert was not strong enough to hold the mounting crank onto the motor without failing. In order to fix this, I ordered motor flanges that allowed me to attach to the 3D printed. I redesigned the piece so it could house the flange using bolts and nuts.
+
+![](./images/crankshaft5.png)
+
+This design allowed the mounting crank to be strong enough to stay attached to the motor.
+
+## Grounds
+
+Now that the legs were finished, I moved onto the grounds.
+
+I started a new sketch in Fusion 360 for my grounds. I decided to make larger holes in the grounds than I did before in order to cut off unesscessary weight that would put more load on the motor. I also added the slot holes that I would make 3D printed parts for eventually to connect each ground. For the middle I made sure to make a bearing shelf and a bearing through hole. By checking with my 3D model, it was easy to determine the height I would need for the grounds and how far out the slot holes would have to be so that the grounds would not interfer with the linkages.
+
+![](./images/grounds1.png)
+
+### Dividers
+
+Today I decided to work on the 3D printed parts that would connect the grounds. By using the grounds I made yesterday as a schematic, I created the grounds.
+
+![](./images/grounds2.png)
+
+I then took this into a new file to create the 3D model. I had to make one for the end sides and one for the middle sides so that they can all fit together (the parts that go into it had to be full length and half length of wood and some had to be only half length).
+
+![](./images/grounds3.png)
+
+I had to add a fillet to the grounds as well because the milling machine cant make straight lines in inside pockets.
+
+### Ground-Axle Connection
+
+For the ground axle connection, I decided to do a fit test for the axles. From this, I deteremined an outer diameter of .604'' was the best fit for the grounds. So I changed my ground file to include this.
+
+### Motor Connection Grounds
+
+The ground that mounted the motor had to be slightly different because it had to accomadate for the mounting of the motor. I had to add holes for the motor screws with a bolt ledge so that I can fasten my motor to the ground.
+
+![](./images/grounds4.png)
+
+With that my grounds were completetd and I was ready to create the CNC files.
+
+## Aspire
+
+I took the dxfs of the files in Fusion360 and put them into Aspire. I had to join each of the pieces using the join tool and then I nested them. I set the material setup off machine bed. I was milling off a 96x48'' piece of plywood that was .5'' tall so I had the material setup accomadate that accordingly. Once this was done I selected each vector and assigned the drill paths accordingly.
+
+The drill files for these files goes like so on a 1/2'' Plywood
+
+3/8'' Compression Bit
+- Bearing Shelf Pocket (.15'' Depth)
+- Bolt Shelf Pocket (.34'' Depth)
+- Bearing Shelf Pocket 2 (.41'' Depth) ; For the pieces that connect to the crankshaft
+- Bearing Through Hole Pocket (.5'' Depth) 
+- Half Pocket (.25'' Depth) ; For the pieces that connect to the crankshaft
+- Inside Profile (.5'' Depth) ; For taking weight off feet, tabs included
+- Outside Profile (.5'' Depth) ; tables included
+
+1/4'' Straight Bit
+- Bolt Hole
+
+1/8'' Staight Bit
+- Ground Hole
+
+![](./images/aspire_restoflegs.png)
+
+With that it was ready to mill. 
+
+## Milling and Setting Up the Pieces
+
+I fastend the plywood down to our ShopBot Large using composite nails and a brad gun. I then uploaded the drill file into the ShopBot software then milled the pieces.
+
+![](./images/milling-legs.jpg)
+
+![](./images/half_pieces.jpg)
+
+I then proceded to glue the pieces together and add the bearings.
+
+![](./images/gluing.jpg)
+
+Now all of my pieces were ready to be put together to test one half of the table. During the time I was milling and gluing, I also 3D printed all the parts I needed using Bambu Slicer and our Bambu 3D printers.
+
+![](./images/bag_of_3dprints.jpg)
+
+## Assembly
+
+Now it was time to assemble the table.
+
+### One Set
+
+I mounted the motor onto the ground using bolts and then attach the ground axles. I then attech my motor crank shaft connector piece and set it in place using the set screw. I then attached the axles to the ground and crank webs using clamps. I then proceeded to attach the linkages onto the motor and then connected the next ground piece in order to keep everything in place and added the dividers. On the ends of the axles I also used spacers to reduce friction. Once this was done I tested it and it worked well. When I made a mistake with the spacing of the legs I take a crowbar and pry the axles off in order to make changes.
+
+### Half Table
+
+I then proceeded to attach the other two leg sets using the same process. While doing this, I made an error with the final piece by not adding spacers making the friction on it pretty bad making it hard for the legs to turn. At times, the half table could push off the ground and at other times it couldn't. This is as far I have made it up to the due date (3/7/26) of the documentation.
+
+![](./images/half-assemby.jpg)
+
+## Going Foward
+
+I intend for this project to be completed soon. All of the changes that I have made to the table seem to have a great affect on it and makes it work better than it has before. If I can fix the friction on the last set of legs I'm sure I can get this walking soon. All there is left to do is to fix the issue with the friction and then replicating the process to one more half of the table and adding the table top. I will also add electronics by the end so it can be controlled remotely, and, with some help, I will try to incoorperate the camera tracking Collin Kanofsky and Kabir Nawaz made last year in order for the table to track people. I'm excited and pleased with the changed I have made and I'm excited to see this thing strolling across the hallways like a spider.
+
+## Downloads
+
+You can download all the files for my project [here](./downloads/ep-walkingtable-downloads.zip)
 
 # Daily Journal (January 6th - Present)
 
