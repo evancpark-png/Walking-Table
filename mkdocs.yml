@@ -1,6 +1,6 @@
 site_name: Walking Table
 theme:
-  name: readthedocs
+  name: bootstrap
 
 nav:
   - Home: index.md
