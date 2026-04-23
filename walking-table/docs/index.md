@@ -388,9 +388,23 @@ With the new motor connector piece, I reassembled the legs and it worked.
 
 I put together the other two legs but was having issues because I made the last one too tight which made it so that there was too much friction and energy loss.
 
+## Continuing the Project
 
+As the project stands right now, it is not finished. If you are willing to continue the project and reiterate it, refer to this part of the documentation for steps and what I believe needs to be changed (in the physical part because the electronics are extremly simplistic) in order to replicate and improve on the project. Not all solutions are going to be given to the problems I encoutnered with my final product but I will give recommendations to fix them.
 
+### Linkages
 
+This part will go over the linakge part of the project. This will go over the CAD work, Aspire files, and preparation of pieces that needs to be done and things that need to be fixed.
+
+### CAD Work
+
+## Dimensions
+
+I believe the size of the linkages are good as they are right now to create a nicely sized coffee table. I do not believe the size of the pieces need to be changed. As the CAD of the linakges are right now, I believe there are no issues. The file provided includes the amount of pieces for one leg, not a set. The design is constrained correctly so that each piece SHOULD be the correct design when it is rescaled using the "base" parameter. Each piece is scaled by taking the longest piece of the leg (the one that connects the shaft to the thigh) which I determined to be 10'' and scaling it using the proposed dimensions Niel D. Carpentier gave; this gives us the scale paramter which is the one that is used in the design (see image below). AKA, use the base parameter to change the size of the pieces and make sure the integrity of the pieces are still intact after the scale. 
+
+![alt text](carpentopod-linkage-diagram-1-600x653.jpg)
+
+![alt text](image.png)
 
 
 
